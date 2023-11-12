@@ -1,6 +1,8 @@
+#Designing the game board 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-
+#The game board design is based on the design of the number keyboard 
+#as shown the number 1 begins from bottom left corner and it ends on number 9 on the top right corner similar to that of the number keyboard 
 def draw_board(board):
     print(board[7] + " |" + board[8] + " |" + board[9])
     print("--+--+--")
@@ -82,11 +84,9 @@ def declare_winner(turn):
     draw_board(board)
     print("\nGame Over.\n")
     if turn == "X":
-        print(" **** " + player1 + " won ****")
+        print(" **** " + player_1 + " won ****")
     else:
-        print(" **** " + player2 + " won ****")
-
-
+        print(" **** " + player_2 + " won ****")
 if __name__ == "__main__":
     game()
 
