@@ -1,0 +1,83 @@
+Enter 1st Player name: 
+A
+Enter 2nd Player name: 
+B
+A: X |B: O
+  |  | 
+--+--+--
+  |  | 
+--+--+--
+  |  | 
+It's your turn, A. Move to which place?
+1
+  |  | 
+--+--+--
+  |  | 
+--+--+--
+X |  | 
+It's your turn, B. Move to which place?
+2
+  |  | 
+--+--+--
+  |  | 
+--+--+--
+X |O | 
+It's your turn, A. Move to which place?
+7
+X |  | 
+--+--+--
+  |  | 
+--+--+--
+X |O | 
+It's your turn, B. Move to which place?
+4
+X |  | 
+--+--+--
+O |  | 
+--+--+--
+X |O | 
+It's your turn, A. Move to which place?
+6
+X |  | 
+--+--+--
+O |  |X
+--+--+--
+X |O | 
+It's your turn, B. Move to which place?
+5
+X |  | 
+--+--+--
+O |O |X
+--+--+--
+X |O | 
+It's your turn, A. Move to which place?
+8
+X |X | 
+--+--+--
+O |O |X
+--+--+--
+X |O | 
+It's your turn, B. Move to which place?
+9
+X |X |O
+--+--+--
+O |O |X
+--+--+--
+X |O | 
+It's your turn, A. Move to which place?
+3
+
+Game Over.
+
+It's a Tie!!
+X |X |O
+--+--+--
+O |O |X
+--+--+--
+X |O |X
+It's your turn, B. Move to which place?
+1
+That place is already filled.
+Move to which place?
+
+Do want to play Again?(y/n):n
