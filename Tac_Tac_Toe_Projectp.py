@@ -9,16 +9,16 @@ def draw_board(board):
     print(board[1] + " |" + board[2] + " |" + board[3])
 
 
-player1 = input("Enter 1st Player name: ")
-player2 = input("Enter 2nd Player name: ")
+player_1 = input("Enter 1st Player name: ")
+player_2 = input("Enter 2nd Player name: ")
 
-print(player1 + ": X |" + player2 + ": O")
+print(player_1 + ": X |" + player_2 + ": O")
 
 
 def game():
     turn = "X"
     count = 0
-    player_turn = player1
+    player_turn = player_1
 
     for i in range(10):
         draw_board(board)
@@ -58,19 +58,19 @@ def game():
                 declare_winner(turn)
                 break
 
-        # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
+        # If neither X nor O wins and the board is full, it will declare the result as 'tie'.
         if count == 9:
             print("\nGame Over.\n")
             print("It's a Tie!!")
         # Now we have to change the player after every move.
         if turn == "X":
             turn = "O"
-            player_turn = player2
+            player_turn = player_2
         else:
             turn = "X"
-            player_turn = player1
+            player_turn = player_1
 
-    # Now we will ask if player wants to restart the game or not.
+    # Now we will ask if the player wants to restart the game or not.
     restart = input("\nDo want to play Again?(y/n): ")
     if restart == "y" or restart == "Y":
         for element in board:
