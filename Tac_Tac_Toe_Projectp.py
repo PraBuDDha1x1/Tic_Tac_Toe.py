@@ -16,7 +16,7 @@ player_2 = input("Enter 2nd Player name: ")
 
 print(player_1 + ": X |" + player_2 + ": O")
 
-
+# taking the inputs of the positions given by the player and running the game
 def game():
     turn = "X"
     count = 0
